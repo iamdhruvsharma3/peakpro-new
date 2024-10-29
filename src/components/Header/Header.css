@@ -1,0 +1,55 @@
+/* src/components/Header/Header.css */
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+    background-color: black;
+    box-shadow: 0 2px 10px rgba(255, 0, 0, 0.3);
+}
+
+.logo {
+    display: flex;
+    align-items: center;
+}
+
+.logo-image {
+    height: 40px;
+    width: auto;
+}
+
+.nav-links {
+    display: flex;
+    gap: 15px;
+}
+
+.nav-link {
+    color: white;
+    text-decoration: none;
+    font-size: 1rem;
+    transition: color 0.3s;
+}
+
+.nav-link:hover {
+    color: red;
+}
+
+@media (max-width: 768px) {
+    .nav-links {
+        display: flex;
+        flex-direction: column;
+        background-color: black;
+        position: absolute;
+        top: 60px;
+        right: 0;
+        padding: 10px;
+        border-radius: 8px;
+        box-shadow: 0 2px 10px rgba(255, 0, 0, 0.3);
+    }
+
+    .nav-link {
+        padding: 5px 0;
+        font-size: 0.9rem;
+    }
+}

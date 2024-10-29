@@ -1,0 +1,42 @@
+
+.analytics-container {
+    max-width: 800px;
+    margin: 50px auto;
+    padding: 20px;
+    background-color: black;
+    border-radius: 8px;
+    box-shadow: 0 4px 15px rgba(255, 0, 0, 0.5);
+    color: white;
+}
+
+.analytics-title {
+    color: red;
+    text-align: center;
+    font-size: 1.8em;
+    margin-bottom: 30px;
+}
+
+.analytics-card {
+    background-color: #222;
+    padding: 20px;
+    border-radius: 8px;
+    margin-bottom: 20px;
+    box-shadow: 0 4px 8px rgba(255, 0, 0, 0.2);
+    text-align: center;
+    transition: transform 0.3s;
+}
+
+.analytics-card:hover {
+    transform: scale(1.05);
+}
+
+.analytics-card h3 {
+    color: red;
+    font-size: 1.2em;
+    margin-bottom: 10px;
+}
+
+.analytics-card p {
+    font-size: 1.5em;
+    color: #ddd;
+}

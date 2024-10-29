@@ -1,0 +1,71 @@
+/* src/components/NutritionLogger/NutritionLogger.css */
+
+.nutrition-logger-container {
+    max-width: 600px;
+    margin: 50px auto;
+    padding: 20px;
+    background-color: black;
+    color: white;
+    border-radius: 8px;
+    box-shadow: 0 4px 15px rgba(255, 0, 0, 0.5);
+}
+
+.nutrition-logger-title {
+    color: red;
+    text-align: center;
+    margin-bottom: 20px;
+    font-size: 1.6em;
+}
+
+.nutrition-form {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.nutrition-form input {
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    font-size: 1em;
+    color: black;
+}
+
+.log-button {
+    padding: 12px;
+    border: none;
+    border-radius: 5px;
+    font-size: 1em;
+    color: white;
+    background-color: red;
+    cursor: pointer;
+    transition: background 0.3s;
+}
+
+.log-button:hover {
+    background-color: #cc0000;
+}
+
+.nutrition-log {
+    margin-top: 30px;
+}
+
+.recent-title {
+    color: red;
+    font-size: 1.4em;
+    margin-bottom: 10px;
+}
+
+.nutrition-log ul {
+    list-style: none;
+    padding: 0;
+}
+
+.nutrition-log li {
+    padding: 10px;
+    background-color: #222;
+    border-radius: 5px;
+    margin-bottom: 8px;
+    color: #ddd;
+    font-size: 1em;
+}

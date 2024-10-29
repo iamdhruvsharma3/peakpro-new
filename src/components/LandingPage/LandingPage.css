@@ -1,0 +1,62 @@
+/* src/components/LandingPage/LandingPage.css */
+/* src/components/LandingPage/LandingPage.css */
+
+.landing-page {
+    background: url('../../assets/landingpage.webp') no-repeat center center/cover; /* Add your background image path */
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    color: white;
+}
+
+.landing-content {
+    background-color: rgba(0, 0, 0, 0.5); /* Semi-transparent background for contrast */
+    padding: 20px;
+    border-radius: 10px;
+}
+
+.landing-title {
+    font-size: 3rem;
+    margin-bottom: 20px;
+    font-weight: bold;
+    color: red; /* Title color */
+}
+
+.landing-description {
+    font-size: 1.2rem;
+    margin-bottom: 30px;
+    color: white; /* Description color */
+}
+
+.landing-buttons {
+    display: flex;
+    justify-content: center;
+    gap: 15px; /* Space between buttons */
+}
+
+.btn {
+    padding: 10px 20px;
+    text-decoration: none;
+    border-radius: 5px;
+    font-weight: bold;
+}
+
+.btn-primary {
+    background-color: red; /* Primary button color */
+    color: white;
+}
+
+.btn-primary:hover {
+    background-color: darkred; /* Darker shade on hover */
+}
+
+.btn-secondary {
+    background-color: white; /* Secondary button color */
+    color: black;
+}
+
+.btn-secondary:hover {
+    background-color: lightgray; /* Lighter shade on hover */
+}

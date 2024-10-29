@@ -1,0 +1,87 @@
+.goal-setting-container {
+    max-width: 500px; /* Limit the width of the container */
+    margin: 40px auto; /* Center the container */
+    padding: 20px; /* Padding inside the container */
+    background-color: black; /* Main background color */
+    border-radius: 10px; /* Rounded corners */
+    color: white; /* Text color */
+    box-shadow: 0 4px 20px rgba(255, 0, 0, 0.4); /* Red shadow effect */
+}
+
+.goal-title {
+    text-align: center; /* Center the title */
+    color: red; /* Title color */
+    margin-bottom: 20px; /* Space below the title */
+    font-weight: bold; /* Bold title */
+    font-size: 1.8em; /* Increase font size */
+}
+
+.goal-form {
+    display: flex; /* Use flexbox for form layout */
+    margin-bottom: 20px; /* Space below form */
+}
+
+.form-group {
+    display: flex; /* Use flexbox for input and button layout */
+    width: 100%; /* Full width */
+}
+
+.form-group input {
+    padding: 10px; /* Padding inside input */
+    border: 2px solid red; /* Red border */
+    border-radius: 5px; /* Rounded corners */
+    background-color: black; /* Black background for input */
+    color: white; /* White text */
+    flex: 1; /* Take remaining space */
+    margin-right: 10px; /* Space between input and button */
+    transition: border-color 0.3s; /* Smooth transition for focus */
+}
+
+.form-group input:focus {
+    outline: none; /* Remove default focus outline */
+    border-color: white; /* White border on focus */
+}
+
+.btn {
+    padding: 10px; /* Padding inside button */
+    background-color: red; /* Button background color */
+    border: none; /* Remove default border */
+    border-radius: 5px; /* Rounded corners */
+    color: white; /* Button text color */
+    font-weight: bold; /* Bold text */
+    cursor: pointer; /* Pointer cursor on hover */
+    transition: background-color 0.3s; /* Transition for hover effect */
+}
+
+.btn:hover {
+    background-color: #cc0000; /* Darker red on hover */
+}
+
+.goals-list {
+    list-style-type: none; /* Remove default list style */
+    padding: 0; /* Remove default padding */
+}
+
+.goal-item {
+    display: flex; /* Use flexbox for item layout */
+    justify-content: space-between; /* Space between item text and button */
+    align-items: center; /* Center items vertically */
+    margin: 10px 0; /* Space between items */
+    padding: 10px; /* Padding for item */
+    background-color: #1a1f71; /* Dark blue background for item */
+    border-radius: 5px; /* Rounded corners */
+}
+
+.remove-btn {
+    background-color: red; /* Red background for remove button */
+    border: none; /* Remove default border */
+    border-radius: 5px; /* Rounded corners */
+    color: white; /* Text color */
+    cursor: pointer; /* Pointer cursor on hover */
+    padding: 5px 10px; /* Padding for button */
+    transition: background-color 0.3s; /* Transition for hover effect */
+}
+
+.remove-btn:hover {
+    background-color: #cc0000; /* Darker red on hover */
+}

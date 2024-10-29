@@ -1,0 +1,60 @@
+/* src/pages/ProgressTracking/ProgressTracking.css */
+.progress-tracking-container {
+    padding: 20px;
+    max-width: 800px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.progress-tracking-title {
+    font-size: 2.5em;
+    margin-bottom: 10px;
+}
+
+.progress-tracking-description {
+    font-size: 1.2em;
+    margin-bottom: 30px;
+    color: #555;
+}
+
+.progress-tracking-content {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+    gap: 20px;
+}
+
+.progress-card {
+    background-color: #f9f9f9;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    padding: 15px;
+    transition: transform 0.3s, box-shadow 0.3s;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.progress-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+}
+
+.progress-icon {
+    font-size: 3em;
+    margin-bottom: 10px;
+}
+
+.progress-card-title {
+    font-size: 1.5em;
+    margin: 10px 0;
+}
+
+.progress-card-description {
+    color: #777;
+    font-size: 1em;
+}
+
+.progress-card-value {
+    font-weight: bold;
+    font-size: 1.2em;
+    margin-top: 10px;
+    color: #333;
+}

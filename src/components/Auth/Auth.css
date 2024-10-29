@@ -1,0 +1,88 @@
+/* src/components/Auth/Auth.css */
+
+.auth-container {
+    max-width: 400px; /* Limit the width of the form */
+    margin: 80px auto; /* Center the form with margin */
+    padding: 30px; /* Padding inside the form */
+    background-color: black; /* Main background color */
+    border-radius: 10px; /* Rounded corners */
+    color: white; /* Text color */
+    box-shadow: 0 4px 20px rgba(255, 0, 0, 0.4); /* Red shadow effect */
+}
+
+.auth-title {
+    text-align: center; /* Center the title */
+    color: red; /* Title color */
+    margin-bottom: 20px; /* Space below the title */
+    font-weight: bold; /* Bold title */
+    font-size: 1.5em; /* Increase font size */
+}
+
+.auth-form {
+    display: flex; /* Use flexbox for form layout */
+    flex-direction: column; /* Stack elements vertically */
+}
+
+.form-group {
+    margin-bottom: 20px; /* Space between form groups */
+}
+
+.form-group label {
+    color: white; /* Label color */
+    margin-bottom: 5px; /* Space below label */
+    font-size: 0.9em; /* Slightly smaller label */
+}
+
+.form-group input {
+    padding: 10px; /* Padding inside input */
+    border: 2px solid red; /* Red border */
+    border-radius: 5px; /* Rounded corners */
+    background-color: black; /* Black background for input */
+    color: white; /* White text */
+    transition: border-color 0.3s; /* Smooth transition for focus */
+    width: 100%; /* Full width for inputs */
+}
+
+.form-group input::placeholder {
+    color: #aaa; /* Lighter color for placeholder text */
+}
+
+.form-group input:focus {
+    outline: none; /* Remove default focus outline */
+    border-color: white; /* White border on focus */
+}
+
+.btn {
+    padding: 10px; /* Padding inside button */
+    background-color: red; /* Button background color */
+    border: none; /* Remove default border */
+    border-radius: 5px; /* Rounded corners */
+    color: white; /* Button text color */
+    font-weight: bold; /* Bold text */
+    cursor: pointer; /* Pointer cursor on hover */
+    transition: background-color 0.3s; /* Transition for hover effect */
+}
+
+.btn:hover {
+    background-color: #cc0000; /* Darker red on hover */
+}
+
+.switch-mode {
+    text-align: center; /* Center switch mode text */
+    margin-top: 15px; /* Space above switch mode */
+    color: #ddd; /* Light grey color */
+}
+
+.switch-btn {
+    background: none; /* Transparent background */
+    border: none; /* Remove border */
+    color: red; /* Red text color */
+    font-weight: bold; /* Bold text */
+    cursor: pointer; /* Pointer cursor on hover */
+    text-decoration: underline; /* Underline for emphasis */
+    transition: color 0.3s; /* Transition for color change */
+}
+
+.switch-btn:hover {
+    color: white; /* Change color on hover */
+}

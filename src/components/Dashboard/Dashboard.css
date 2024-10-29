@@ -1,0 +1,94 @@
+/* src/components/Dashboard/Dashboard.css */
+
+.dashboard-container {
+    max-width: 800px; /* Set max width for layout */
+    margin: 50px auto; /* Centered layout */
+    padding: 20px; /* Padding inside the dashboard */
+    background-color: black; /* Primary background color */
+    color: white; /* White text color */
+    border-radius: 8px; /* Rounded corners */
+    box-shadow: 0 4px 20px rgba(255, 0, 0, 0.5); /* Red shadow for effect */
+}
+
+.dashboard-title {
+    text-align: center; /* Center title */
+    color: red; /* Title in red */
+    margin-bottom: 20px; /* Space below title */
+    font-size: 1.8em; /* Slightly larger font */
+}
+
+.stats-overview {
+    display: flex; /* Flex layout for stats */
+    justify-content: space-around; /* Evenly spaced stats */
+    margin-bottom: 20px; /* Space below stats */
+}
+
+.stat-card {
+    background-color: #222; /* Darker background for contrast */
+    padding: 15px; /* Padding inside stat card */
+    border-radius: 8px; /* Rounded corners */
+    text-align: center; /* Center stat text */
+    width: 30%; /* Width of each card */
+    box-shadow: 0 2px 5px rgba(255, 0, 0, 0.3); /* Light red shadow */
+}
+
+.stat-card h3 {
+    color: red; /* Red color for stat headings */
+    margin-bottom: 5px; /* Space below heading */
+}
+
+.stat-card p {
+    font-size: 1.5em; /* Larger font for numbers */
+    font-weight: bold; /* Bold for emphasis */
+}
+
+.recent-activity {
+    margin-top: 20px; /* Space above recent activity */
+    background-color: #111; /* Slightly lighter black */
+    padding: 15px; /* Padding inside */
+    border-radius: 8px; /* Rounded corners */
+}
+
+.recent-activity h3 {
+    color: red; /* Red heading */
+    margin-bottom: 10px; /* Space below heading */
+}
+
+.recent-activity ul {
+    list-style: none; /* Remove list bullets */
+    padding: 0; /* Remove padding */
+}
+
+.recent-activity li {
+    padding: 8px; /* Padding inside each item */
+    border-bottom: 1px solid #444; /* Divider between items */
+    color: #ddd; /* Slightly lighter grey */
+}
+
+.progress-summary {
+    margin-top: 20px; /* Space above progress */
+    padding: 15px; /* Padding inside */
+    background-color: #111; /* Slightly lighter black */
+    border-radius: 8px; /* Rounded corners */
+    text-align: center; /* Center text */
+}
+
+.progress-summary h3 {
+    color: red; /* Red heading */
+    margin-bottom: 10px; /* Space below heading */
+}
+
+.progress-bar {
+    background-color: #333; /* Dark grey background */
+    height: 15px; /* Height of progress bar */
+    border-radius: 10px; /* Rounded corners */
+    overflow: hidden; /* Keep progress within */
+    margin-top: 10px; /* Space above bar */
+}
+
+.progress {
+    background-color: red; /* Red progress */
+    height: 100%; /* Fill height of progress bar */
+    border-radius: 10px; /* Rounded corners */
+    transition: width 0.3s; /* Smooth width transition */
+}

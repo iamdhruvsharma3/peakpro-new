@@ -1,0 +1,70 @@
+/* src/pages/WorkoutLogger/WorkoutLogger.css */
+.workout-logger-container {
+    padding: 20px;
+    max-width: 400px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.workout-logger-title {
+    font-size: 2.5em;
+    margin-bottom: 20px;
+}
+
+.workout-logger-form {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.workout-input-group {
+    display: flex;
+    flex-direction: column;
+}
+
+.workout-label {
+    font-size: 1.1em;
+    margin-bottom: 5px;
+}
+
+.workout-input {
+    padding: 10px;
+    font-size: 1em;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+}
+
+.workout-button {
+    padding: 10px;
+    font-size: 1.1em;
+    background-color: #1A1F71;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.workout-button:hover {
+    background-color: #161d56;
+}
+
+.workout-log {
+    margin-top: 20px;
+}
+
+.workout-log-title {
+    font-size: 1.5em;
+    margin-bottom: 10px;
+}
+
+.workout-list {
+    list-style-type: none;
+    padding: 0;
+}
+
+.workout-item {
+    font-size: 1.1em;
+    color: #333;
+    margin: 5px 0;
+}
